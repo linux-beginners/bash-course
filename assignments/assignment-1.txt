@@ -1,0 +1,9 @@
+The goal of this assignment is to get our feet wet, and so we will
+start by reading chapter 1 of the text, which is the introduction;
+it answers the questions, "What is bash?" and "What is a shell?"
+
+Chapter 2 is a list of definitions, and I just want you to be aware
+they're there. You don't have to memorize these definitions, just
+read through them to get a basic idea. As this is a reference text,
+this definitions chapter is there to define some of the more visible
+concepts, and you might refer to it when reading later chapters.
