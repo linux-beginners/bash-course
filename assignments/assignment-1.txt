@@ -1,3 +1,5 @@
+Reading:
+
 The goal of this assignment is to get our feet wet, and so we will
 start by reading chapter 1 of the text, which is the introduction;
 it answers the questions, "What is bash?" and "What is a shell?"
@@ -7,3 +9,98 @@ they're there. You don't have to memorize these definitions, just
 read through them to get a basic idea. As this is a reference text,
 this definitions chapter is there to define some of the more visible
 concepts, and you might refer to it when reading later chapters.
+
+At the keyboard:
+
+If you want to print something, you can use the "echo" command.
+Try this:
+
+  echo "hello world"
+
+and you should see that the shell outputs the text hello world.
+
+You can also feed the words to echo separately. Try this:
+
+  echo "hello" "world"
+
+and you'll see that echo produces the same text. In this version,
+the two strings "hello" and "world" were fed to echo as two
+separate "parameters" or "arguments". Also, echo added a space
+between them (which was not provided in either of the parameters.)
+
+Quotes or no quotes?
+
+The bash shell (like other shells) have the idea that everything
+is a string, and that includes command names. This can be shown in
+this example. Try this:
+
+  "echo" "hello" "world"
+
+and, again, the shell will output the text hello world.
+
+And, in the earlier example, we didn't have to quote the echo, and
+we -also- don't have to quote the arguments to echo. Try this:
+
+  echo hello world
+
+and you will see that again, the suell outputs the text hello world.
+
+A first look at scripting:
+
+Anything you can type into the bash shell can be put into a file. To
+illustrate this, use your favorite text editor to place the following
+text into the file echoes.bash:
+
+  echo hello world
+
+(Note, if you don't have a favorite editor, nano is fairly easy to figure
+out. Also, we'll see other things about scripts later.) You can cause bash
+to run the commands in the script, by running this:
+
+  bash echoes.bash
+
+and bash will again output the text hello world.
+
+Scripts can have many commands, not just one:
+
+Edit the echoes.bash script, so it reads like this:
+
+  echo a
+  echo b
+  echo c
+  echo d
+
+and then run it (as before) like this:
+
+  bash echoes.bash
+
+and you will see that bash prints them on separate lines. Commands in linux
+can sometimmes have "switches" that turn certain features on and off. For
+example, try the -n switch in the script you just wrote; make the script look
+like this:
+
+  echo -n a
+  echo -n b
+  echo -n c
+  echo -n d
+
+and run the script again. I'll show the shell prompt like this: linux:~$ so you
+can see the effect of the echo command's -n switch:
+
+  linux:~$ bash echoes.bash
+  abcdliux:~$
+
+and you can see the -n turns off newlines, even the one that would have come before the
+shell issued the next prompt.
+
+Add an "echo" at the end of the script, with no parameters, so it looks like this:
+
+  echo -n a
+  echo -n b
+  echo -n c
+  echo -n d
+  echo
+
+and run the script again, to see that the last echo put the next shell prompt on
+its own line.
+
