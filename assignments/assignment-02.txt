@@ -1,0 +1,15 @@
+Reading:
+
+In this assignment, we start looking at the features of the programming
+language defined by the bash interpreter, its overall syntax and at what
+bash does for each command line.
+
+Chapter 3 enumerates these features, starting with an examination of the
+syntax of bash (3.1), commands in bash (3.2), functions (3.3), parameters
+(3.4), expansions (3.5), redirections (3.6), executing commands (3.7) and
+shell scripts (3.8).
+
+In this reading assignment, is included the introductory comments to chapter
+3, and its first section (3.1) on the syntax of bash, including its read-
+eval-pprint loop (its operation), shell quoting rules, and comments.
+
