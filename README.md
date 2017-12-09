@@ -12,5 +12,8 @@ I found a web site with this document on it, and the url for it is:
 
 We will be using this text for the course.
 
+and, we're trying to use the ##linux-beginners channel on freenode.net.
+Come join us if you can.
+
 Good luck, and let's have some fun!
 
