@@ -8,7 +8,7 @@ I'll add materials, and, for now the text we'll be using is the Bash
 Reference, which is contained in the bash source, in a texinfo file.
 I found a web site with this document on it, and the url for it is:
 
-  https://tiswww.case.edu/php/chet/bash/bashref.html
+  https://www.gnu.org/software/bash/manual/html_node/index.html
 
 We will be using this text for the course.
 
