@@ -10,6 +10,16 @@ I found a web site with this document on it, and the url for it is:
 
   https://www.gnu.org/software/bash/manual/html_node/index.html
 
+you can also get a pdf of the bash manual, by browsing to this URL:
+
+  https://www.gnu.org/software/bash/manual/
+
+and clicking on the link that says:
+
+  PDF file (784K bytes).
+
+and downloading that file.
+
 We will be using this text for the course.
 
 and, we're trying to use the ##linux-beginners channel on freenode.net.
